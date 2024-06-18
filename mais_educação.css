@@ -1,0 +1,125 @@
+body {
+    background: linear-gradient(135deg,#837b6b,#b08e6b,#e8c39e,#ffaa00);
+    /*background-color: #e8c39e;*/
+    margin: 0;
+    font-family: sans-serif;
+    font-size:larger;
+}
+
+.border {
+    border: 1px solid #b08e6b;
+}
+
+p {
+    color: #837b6b;
+}
+
+.pages {
+    color: rgb(0, 0, 0);
+}
+
+a {
+    color: #ffaa00;
+}
+
+.title_1 {
+    color: #837b6b;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header button {
+    position: relative;
+    font-size: 15px;
+    transition: 0.2s;
+}
+header button>span {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    height: 48px;
+    padding: 0 16px 0 12px;
+    border-radius: 24px;
+    line-height: 1;
+    font-size: 16px;
+}
+
+header>nav {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+header button:hover>span {
+    color: #837b6b;
+    transition: all 0.4s;
+}
+
+.logo-img {
+    border-radius: 10px;
+}
+
+button {
+    background-color: #837b6b;
+    color: #e8c39e;
+    font-family: inherit;
+    cursor: pointer;
+    text-align: left;
+    padding: 0;
+}
+
+button:hover {
+    transition: transform 0.4s;
+    transform: scale(1.1);
+}
+
+.EDUCAÇÃO,
+.EDUCAÇÃO_h1,
+.EDUCAÇÃO_h2,
+.ancora_more,
+ul,
+li {
+    color: rgb(0, 0, 0);
+    text-decoration:none; 
+}
+
+.quiz_geografia {
+    font-family: Arial, sans-serif;
+  }
+
+  #quiz-container {
+    width: 50%;
+    margin: auto;
+  }
+
+  .question {
+    margin-bottom: 20px;
+  }
+
+  .options {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .options li {
+    margin-bottom: 10px;
+  }
+
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+.kkk{
+    color: black;
+}
